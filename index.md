@@ -5,7 +5,7 @@ title: Home
 
 # Welcome to Koel
 
-![Koel Logo]({{ site.baseurl }}/images/koel_logo.png){: .center-image }
+[//]: # (![Koel Logo]&#40;{{ site.baseurl }}/images/koel_logo.png&#41;{: .center-image })
 
 ## Intelligent WhatsApp Assistant
 
