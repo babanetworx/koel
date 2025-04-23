@@ -7,7 +7,7 @@ description: >-
   intuitive web interface. It combines WhatsApp Web connectivity with 
   advanced AI capabilities to create a versatile messaging platform.
 baseurl: "/koel" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.babanetworx.com" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /images/koel_logo.png
 
 # Build settings
