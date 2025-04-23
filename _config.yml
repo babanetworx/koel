@@ -1,0 +1,50 @@
+# Site settings for Koel WhatsApp Agent
+title: Koel - Intelligent WhatsApp Assistant
+email: info@koel.app
+description: >-
+  Koel is a comprehensive platform that enables automated responses, 
+  chat monitoring, and direct interaction with WhatsApp through an 
+  intuitive web interface. It combines WhatsApp Web connectivity with 
+  advanced AI capabilities to create a versatile messaging platform.
+baseurl: "/koel" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+logo: /images/koel_logo.png
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - index.md
+  - features.md
+  - installation.md
+  - usage.md
+  - technical.md
+  - about.md
+
+# Collections
+collections:
+  features:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "features"
+    values:
+      layout: "feature"
